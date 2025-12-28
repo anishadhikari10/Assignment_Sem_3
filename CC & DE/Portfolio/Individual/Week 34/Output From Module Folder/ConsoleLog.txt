@@ -1,0 +1,66 @@
+[2025-12-12 07:53:16.5439344 | INF] KAPE directory: C:\Users\junior\Downloads\kape Week 34\KAPE
+[2025-12-12 07:53:16.5477122 | INF] Command line:   --msource D:\Data\Target --mdest D:\Data\Module --mflush --module !EZParser --gui 
+[2025-12-12 07:53:16.5553625 | INF] System info: Machine name: ANISH, 64-bit: true, User: junior OS: "Windows10" (10.0.26200)
+[2025-12-12 07:53:17.1401422 | INF] Using Module operations
+[2025-12-12 07:53:17.1401422 | WRN]   Flushing module destination directory D:\Data\Module
+[2025-12-12 07:53:17.1451274 | WRN]   Creating module destination directory D:\Data\Module
+[2025-12-12 07:53:17.1586591 | INF]   Module AmcacheParser: Found 1 processor
+[2025-12-12 07:53:17.1665750 | INF]     Found processor Executable: AmcacheParser.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory% -i --mp, Export: csv, Append: False!
+[2025-12-12 07:53:17.1669732 | INF]   Module AppCompatCacheParser: Found 1 processor
+[2025-12-12 07:53:17.1669732 | INF]     Found processor Executable: AppCompatCacheParser.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1669732 | INF]   Module EvtxECmd: Found 3 processors
+[2025-12-12 07:53:17.1669732 | INF]     Found processor Executable: EvtxECmd\EvtxECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1692960 | INF]   Module JLECmd: Found 3 processors
+[2025-12-12 07:53:17.1692960 | INF]     Found processor Executable: JLECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory% -q --mp, Export: csv, Append: False!
+[2025-12-12 07:53:17.1692960 | INF]   Module LECmd: Found 3 processors
+[2025-12-12 07:53:17.1692960 | INF]     Found processor Executable: LECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory% -q --mp, Export: csv, Append: False!
+[2025-12-12 07:53:17.1692960 | INF]   Module MFTECmd: Found 4 processors
+[2025-12-12 07:53:17.1692960 | INF]   Module MFTECmd_$Boot: Found 2 processors
+[2025-12-12 07:53:17.1692960 | INF]     Found processor Executable: MFTECmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1692960 | INF]   Module MFTECmd_$MFT: Found 2 processors
+[2025-12-12 07:53:17.1692960 | INF]     Found processor Executable: MFTECmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1692960 | INF]   Module MFTECmd_$J: Found 2 processors
+[2025-12-12 07:53:17.1692960 | INF]     Found processor Executable: MFTECmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1692960 | INF]   Module MFTECmd_$SDS: Found 2 processors
+[2025-12-12 07:53:17.1692960 | INF]     Found processor Executable: MFTECmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1692960 | INF]   Module PECmd: Found 3 processors
+[2025-12-12 07:53:17.1692960 | INF]     Found processor Executable: PECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory% --mp -q, Export: csv, Append: False!
+[2025-12-12 07:53:17.1800701 | INF]   Module RBCmd: Found 1 processor
+[2025-12-12 07:53:17.1800701 | INF]     Found processor Executable: RBCmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory% -q, Export: csv, Append: False!
+[2025-12-12 07:53:17.1800701 | INF]   Module RecentFileCacheParser: Found 2 processors
+[2025-12-12 07:53:17.1818247 | INF]     Found processor Executable: RecentFileCacheParser.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1818247 | INF]   Module RECmd_Kroll: Found 1 processor
+[2025-12-12 07:53:17.1818247 | INF]     Found processor Executable: RECmd\RECmd.exe, Cmd line: -d %sourceDirectory% --bn BatchExamples\Kroll_Batch.reb --nl false --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1818247 | INF]   Module SBECmd: Found 1 processor
+[2025-12-12 07:53:17.1818247 | INF]     Found processor Executable: SBECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1818247 | INF]   Module SQLECmd: Found 2 processors
+[2025-12-12 07:53:17.1818247 | INF]     Found processor Executable: SQLECmd\SQLECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1818247 | INF]   Module SrumECmd: Found 1 processor
+[2025-12-12 07:53:17.1818247 | INF]     Found processor Executable: SrumECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1818247 | INF]   Module SumECmd: Found 1 processor
+[2025-12-12 07:53:17.1818247 | INF]     Found processor Executable: SumECmd.exe, Cmd line: -d %sourceDirectory%\Windows\System32\LogFiles\SUM --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1818247 | INF]   Module WxTCmd: Found 1 processor
+[2025-12-12 07:53:17.1818247 | INF]     Found processor Executable: WxTCmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2025-12-12 07:53:17.1818247 | INF] Discovered 18 processors to run
+[2025-12-12 07:53:17.1818247 | INF] Executing modules with file masks...
+[2025-12-12 07:53:17.1975104 | INF]   Skipping AmcacheParser.exe: No matching files found for Amcache.hve!
+[2025-12-12 07:53:17.1975104 | INF]   Running AppCompatCacheParser.exe: -f "D:\Data\Target\E\Windows\System32\config\system" --csv D:\Data\Module\ProgramExecution
+[2025-12-12 07:53:20.1225459 | INF]   Running MFTECmd.exe: -f "D:\Data\Target\E\$Boot" --csv D:\Data\Module\FileSystem
+[2025-12-12 07:53:22.3408317 | INF]   Running MFTECmd.exe: -f "D:\Data\Target\E\$MFT" --csv D:\Data\Module\FileSystem
+[2025-12-12 07:53:23.3161575 | INF]   Skipping MFTECmd.exe: No matching files found for $UsnJrnl%3A$J|$J!
+[2025-12-12 07:53:23.3161575 | INF]   Running MFTECmd.exe: -f "D:\Data\Target\E\$Secure_$SDS" --csv D:\Data\Module\FileSystem
+[2025-12-12 07:53:23.7642241 | INF]   Skipping RecentFileCacheParser.exe: No matching files found for RecentFileCache.bcf!
+[2025-12-12 07:53:23.7703402 | INF]   Skipping WxTCmd.exe: No matching files found for ActivitiesCache.db!
+[2025-12-12 07:53:23.7703402 | INF] Executing remaining modules...
+[2025-12-12 07:53:23.7703402 | INF]   Running EvtxECmd\EvtxECmd.exe: -d D:\Data\Target --csv D:\Data\Module\EventLogs
+[2025-12-12 07:53:32.0789109 | INF]   Running JLECmd.exe: -d D:\Data\Target --csv D:\Data\Module\FileFolderAccess -q --mp
+[2025-12-12 07:53:34.1416020 | INF]   Running LECmd.exe: -d D:\Data\Target --csv D:\Data\Module\FileFolderAccess -q --mp
+[2025-12-12 07:53:36.1518346 | INF]   Running PECmd.exe: -d D:\Data\Target --csv D:\Data\Module\ProgramExecution --mp -q
+[2025-12-12 07:53:36.8857131 | INF]   Running RBCmd.exe: -d D:\Data\Target --csv D:\Data\Module\FileDeletion -q
+[2025-12-12 07:53:38.2247698 | INF]   Running RECmd\RECmd.exe: -d D:\Data\Target --bn BatchExamples\Kroll_Batch.reb --nl false --csv D:\Data\Module\Registry
+[2025-12-12 07:53:46.0608241 | INF]   Running SBECmd.exe: -d D:\Data\Target --csv D:\Data\Module\FileFolderAccess
+[2025-12-12 07:53:48.2247006 | INF]   Running SQLECmd\SQLECmd.exe: -d D:\Data\Target --csv D:\Data\Module\SQLDatabases
+[2025-12-12 07:53:51.0711602 | INF]   Running SrumECmd.exe: -d D:\Data\Target --csv D:\Data\Module\SRUMDatabase
+[2025-12-12 07:53:52.3952869 | INF]   Running SumECmd.exe: -d D:\Data\Target\Windows\System32\LogFiles\SUM --csv D:\Data\Module\SUMDatabase
+[2025-12-12 07:53:53.5825440 | INF] Executed 18 processors in 36.4221 seconds
+[2025-12-12 07:53:53.5825440 | INF] Total execution time: 36.4462 seconds
